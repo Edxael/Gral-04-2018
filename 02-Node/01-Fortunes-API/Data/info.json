@@ -1,6 +1,6 @@
 [
     { "id": "1", "message": "Success is arround the corner", "lucky_number": 12, "gardian_constellation": "Pegasus" },
-    { "id": "2", "message": "Never give up", "lucky_number": , "gardian_constellation": "Dorado" },
+    { "id": "2", "message": "Never give up", "lucky_number": 22, "gardian_constellation": "Dorado" },
     { "id": "3", "message": "Forward with faith", "lucky_number": 7, "gardian_constellation": "Draco" },
     { "id": "4", "message": "The limit is the sky", "lucky_number": 14, "gardian_constellation": "" },
     { "id": "5", "message": "Your high-minded principles spell success.", "lucky_number": 26, "gardian_constellation": "Hydra" },
@@ -11,5 +11,5 @@
     { "id": "10", "message": "Fortune favors the brave.", "lucky_number": 33, "gardian_constellation": "Pisces" },
     { "id": "11", "message": "Happiness is an activity.", "lucky_number": 58, "gardian_constellation": "Musca" },
     { "id": "12", "message": "Everything happens for a reson.", "lucky_number": 67, "gardian_constellation": "Libra" },
-    { "id": "13", "message": "Success is the sum of unique visions realized by the sweat of perseverance.", "lucky_number": 99, "gardian_constellation": "Gemini" }
+    { "id": "0", "message": "Success is the sum of unique visions realized by the sweat of perseverance.", "lucky_number": 99, "gardian_constellation": "Gemini" }
 ]
