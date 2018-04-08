@@ -2,7 +2,7 @@
     { "id": "1", "message": "Success is arround the corner", "lucky_number": 12, "gardian_constellation": "Pegasus" },
     { "id": "2", "message": "Never give up", "lucky_number": 22, "gardian_constellation": "Dorado" },
     { "id": "3", "message": "Forward with faith", "lucky_number": 7, "gardian_constellation": "Draco" },
-    { "id": "4", "message": "The limit is the sky", "lucky_number": 14, "gardian_constellation": "" },
+    { "id": "4", "message": "The limit is the sky", "lucky_number": 14, "gardian_constellation": "Eagle" },
     { "id": "5", "message": "Your high-minded principles spell success.", "lucky_number": 26, "gardian_constellation": "Hydra" },
     { "id": "6", "message": "You will become great if you believe in yourself.", "lucky_number": 19, "gardian_constellation": "Lynx" },
     { "id": "7", "message": "You can make your own happiness.", "lucky_number": 77, "gardian_constellation": "Phoenix" },
