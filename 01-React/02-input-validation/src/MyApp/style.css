@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+}
+
+.valsec{
+    border: 1px solid black;
+    padding: 7px;
+    background-color: bisque;
+    width: 75%;
+    margin: 0 auto 5px auto;
+}
