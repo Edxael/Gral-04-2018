@@ -1,8 +1,12 @@
 import React from 'react'
+import PhoneInput from "react-phone-input-auto-format"  
+// NPM TO FOMAT PHONE-NUMBER
+// https://www.npmjs.com/package/react-phone-input-auto-format
+// https://www.npmjs.com/package/tel-format
 import './style.css'
 
 export default class extends React.Component{
-    state = { email: '', phone: '', date: '', time: '' }
+    state = { email: '', phone: '', date: '', time: '', phone2: '' }
 
     render(){
 
@@ -39,6 +43,10 @@ export default class extends React.Component{
             this.setState({ time: '' })
         }
 
+        const PhoneFormating = (e) => {
+            this.setState({ time: e.target.value })
+        }
+
         return(
             <div>
                 <h1>Form Validation 1.3</h1>
@@ -63,12 +71,25 @@ export default class extends React.Component{
                 </div>
 
                 <div className="valsec">
-                    <input type="time" placeholder="Date..." value={this.state.time} onChange={ (e) => { this.setState({ time: e.target.value }) } } />
+                    <input type="time" placeholder="Date..." value={this.state.time} onChange={ (e) => { PhoneFormating(e) } } />
                     <br/><br/>
                     <button onClick={ ValTime }>Submit</button>
                 </div>
+
+                <hr/>
+
+                <div className="valsec">
+                    <div>Formating Phone Number</div>
+                    <input type="text" placeholder="(123) 456-7890" value={this.state.phone} onChange={ (e) => { this.setState({ phone: e.target.value }) } } />
+                    <br/><br/>
+                    <button onClick={ ValPhone }>Submit</button>
+                </div>
+
 
             </div>
         )
     }
 }
+
+
+ // <input type="time" placeholder="Date..." value={this.state.time} onChange={ (e) => { this.setState({ time: e.target.value }) } } /> 
