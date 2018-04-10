@@ -1,0 +1,12 @@
+body{
+    background-color: #cfadf0;
+    text-align: center;
+}
+
+.sectionCont{
+    border: 1px solid black;
+    background-color: rgb(136, 248, 168);
+    width: 80%;
+    padding: 15px;
+    margin: 0 auto 15px auto;
+}
