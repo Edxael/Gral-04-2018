@@ -1,7 +1,7 @@
 # React-TypeScript
 
 ### Location of information: 
-https://github.com/leonidas/create-react-app-typescript
+https://github.com/leonidas/create-react-app-typescript   <--No update since Dec 08, 2016
 
 ### Command to create this application:
 - create-react-app my-app --scripts-version=react-scripts-ts
