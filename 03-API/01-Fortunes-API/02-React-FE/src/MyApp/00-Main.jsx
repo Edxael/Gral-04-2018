@@ -16,7 +16,27 @@ export default class extends React.Component{
                 <hr/>
 
                 <div className="sectionCont" >
-                    <button onClick={getAll} >Get-All</button>
+                    <button onClick={getAll} >Get All records</button>
+                </div>
+
+                <div className="sectionCont" >
+                    <input type="text"/>
+                    <button  >Create New Record</button>
+                </div>
+
+                <div className="sectionCont" >
+                    <input type="text"/>
+                    <button  >Get One by ID</button>
+                </div>
+
+                <div className="sectionCont" >
+                    <input type="text"/>
+                    <button  >Update One by ID</button>
+                </div>
+
+                <div className="sectionCont" >
+                    <input type="text"/>
+                    <button  >Delete One by ID</button>
                 </div>
 
             </div>
