@@ -6,10 +6,11 @@ export default class App extends React.Component {
   state = { data: ["Clean Home"], text: '' }
 
   addTodo = () =>{
-    var newTodo = this.state.text;
-    var arr = this.state.data;
-    arr.push(newTodo);
-    this.setState({data: arr, text: ""});
+    console.log("Testing")
+    // var newTodo = this.state.text;
+    // var arr = this.state.data;
+    // arr.push(newTodo);
+    // this.setState({data: arr, text: ""});
   }
 
   renderTodos = () => {
@@ -46,3 +47,4 @@ const styles = StyleSheet.create({
     borderWidth: 1
   }
 });
+
