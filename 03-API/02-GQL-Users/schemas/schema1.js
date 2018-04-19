@@ -2,10 +2,6 @@ const graphql = require('graphql')
 const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLSchema } = graphql
 const Lodash = require('lodash')
 
-const users = [
-    { id: '23', firstName: 'Bill', age: 20 },
-    { id: '47', firstName: 'Haruka', age: 21 }
-]
 
 const UserType = new GraphQLObjectType({
     name: 'User',
