@@ -1,10 +1,11 @@
+# Info & Notes 
 
-
+Information on this project.
 
 
 
 ## ---------------------------------------------
-# Intalling the Json server:
+## Intalling the Json server:
 
 ### Terminal command to install server:
 npm install --save json-server
