@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(113, 167, 248, 0.5);
+    text-align: center;
+}
+
+.transp{
+    background-color: rgba(254, 254, 254, 0.5);
+    border: 2px solid white;
+}
+
+.page-cont{
+    margin: 25px 50px;
+}
+
+
+.overwrite{
+    color: red;
+}
+
+
+
+
+/* ---[services]------------------------------------------- */
+.services-card-main-container{
+    /* margin-bottom: 25px; */
+}
+
+.services-card-sub-container{
+    display: flex;
+    margin-bottom: 25px;
+}
